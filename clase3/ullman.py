@@ -6,5 +6,5 @@ def ullman(num):
             num = num*3+1
         print(num)
 
-num = 30
+num = 5006337
 ullman(num)

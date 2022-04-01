@@ -7,4 +7,4 @@ while vasos>unidad:
     sobran = vasos%unidad
     total+=reciclados
     vasos = reciclados + sobran
-    print("Cantidad de vasos",vasos,"reciclados",reciclados,"sobran",sobran,"recicladosT:",total)
+    print("Cantidad de vasos reciclados",reciclados,"sobran",sobran,"recicladosT:",total)

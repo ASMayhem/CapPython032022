@@ -8,16 +8,16 @@ def llenarSec(n):
 
 def llenarAle(n):
     lista=[]
-    num = randint(1,10)
+    num = randint(1,n)
     lista+=[num]
     for i in range(n-1):
         while num in lista:
-            num = randint(1,10)
+            num = randint(1,n)
         lista+=[num]
     return lista
             
 
-n = 10
+n = 20
 lista = llenarSec(n)
 lista2 = llenarAle(n)
 print(lista)
